@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonsService } from 'commons';
+import { SharedService } from '@shared';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,9 @@ import { CommonsService } from 'commons';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  constructor(public commonsService: CommonsService) {}
+  constructor(public sharedService: SharedService) {}
 
   increment(): void {
-    this.commonsService.increment();
+    this.sharedService.increment();
   }
 }

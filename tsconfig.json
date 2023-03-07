@@ -3,8 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "commons": [
-        "dist/commons"
+      "@shared": [
+        "../commons-lib/dist/shared"
       ]
     },
     "outDir": "./dist/out-tsc",
