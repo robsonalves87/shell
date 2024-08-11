@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SharedService } from '@shared';
+import { SharedService } from 'nosbor-shared-testing';
 
 @Component({
   selector: 'app-home',
